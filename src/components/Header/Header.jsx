@@ -3,12 +3,13 @@ import { links } from '../../Data';
 import { Link, animateScroll } from 'react-scroll';
 import { scrollToTop } from 'react-scroll/modules/mixins/animate-scroll';
 
+// import useTranslation from 'react-i18next'
+
 import {
   FaTwitter,
   FaInstagram,
   FaTelegram,
   FaFacebookSquare,
-  FaYoutube,
   FaGithub,
   FaEnvelope,
 } from 'react-icons/fa';
@@ -40,6 +41,18 @@ const Header = () => {
   useEffect(() => {
     document.body.classList.toggle('no-scroll', showMenu);
   }, [showMenu]);
+
+  // ----------------Translation--------------
+  // const {t, i18n} = useTranslation();
+
+  // const {items} = useSelector((state) => state.wishlist)
+
+  // const {cartItem} = useSelector((state) => state.carts)
+
+  // const handleChange = (event) => {
+  //   const lng = event.target.value;
+  //   i18n.changeLanguage(lng)
+  // }
 
   // Icons
   const sunIcon = document.querySelector('.sun');
@@ -140,34 +153,29 @@ const Header = () => {
                 <FaTwitter />
               </a>
               <a
-                href='#'
+                href='https://www.facebook.com/profile.php?id=100042179494834&sk=about' target='_blank' 
                 className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-titleColorDark dark:hover:text-primaryColor hover:animate-bounce'
               >
                 <FaFacebookSquare />
               </a>
               <a
-                href='#'
+                href='https://github.com/kubahandro' target='_blank'
                 className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-titleColorDark dark:hover:text-primaryColor hover:animate-bounce'
               >
                 <FaGithub />
               </a>
               <a
-                href='#'
+                href='https://www.instagram.com/tirkeshovich_?igsh=MXN3NzMzc216eTV1cg=='
+              target='_blank' 
                 className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-titleColorDark dark:hover:text-primaryColor hover:animate-bounce'
               >
                 <FaInstagram />
               </a>
               <a
-                href='#'
+                href='https://web.telegram.org/k/' target='_blank'
                 className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-titleColorDark dark:hover:text-primaryColor hover:animate-bounce'
               >
                 <FaTelegram />
-              </a>
-              <a
-                href='#'
-                className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-titleColorDark dark:hover:text-primaryColor hover:animate-bounce'
-              >
-                <FaYoutube />
               </a>
               <a
                 href='#'
@@ -179,6 +187,11 @@ const Header = () => {
           </div>
         </div>
         <div className='nav__btns'>
+        {/* <select name="" id="" onChange={handleChange}>
+            <option value="kg">Кыргыз</option>
+            <option value="en">English</option>
+            <option value="ru">Русский</option>
+          </select> */}
           <div className='theme_toggler text-textColor dark:text-textColorDark'>
             <BsMoon
               className='moon cursor-pointer w-5 h-5'

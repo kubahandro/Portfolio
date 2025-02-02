@@ -4,11 +4,12 @@
   width: 100%;
   padding: 30px;
   z-index: 100;
+  /* border: 1px solid hsl(164, 60%, 50%); */
 }
 
 .scroll-header {
     position: fixed;
-    background-color: hsl(213, 10%, 21%);
+    background-color: hsl(164, 60%, 50%);
     animation: header_animate 0.8s cubic-bezier(0.3, 0, 0.3, 1) 0s forwards;
 }
 

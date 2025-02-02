@@ -1,6 +1,5 @@
 import React from 'react';
 import { post } from '../../Data';
-import shapeTwo from '../../assets/shape-2.png';
 import { FaArrowRight } from 'react-icons/fa';
 
 // Import Swiper React components
@@ -76,12 +75,6 @@ const Blog = () => {
                   <FaArrowRight className='z-[2] text-titleColor dark:text-titleColorDark' />
                 </a>
               </div>
-
-              <img
-                src={shapeTwo}
-                alt='shape for design blog post cards'
-                className='absolute right-[-50px] bottom-[-19px] w-[141px] h-[141px] dark:invert-[1] dark:opacity-[0.6]'
-              />
             </SwiperSlide>
           );
         })}

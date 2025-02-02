@@ -67,7 +67,7 @@ const Contact = () => {
               Address
             </h3>
             <p className='contact__card-data text-textColor dark:text-textColorDark'>
-              Iran, Isfahan, Farhang st No.26
+              Kyrgyzstan, Djalal-Abad, Nooken r., Osmonov G. str No.68
             </p>
           </div>
           <div className='contact__card'>
@@ -89,7 +89,7 @@ const Contact = () => {
               Email
             </h3>
             <p className='contact__card-data text-textColor dark:text-textColorDark'>
-              ikhaki71@gmail.com
+              kubanychabdunasirov@gmail.com
             </p>
           </div>
           <div className='contact__card'>
@@ -100,7 +100,7 @@ const Contact = () => {
               Phone
             </h3>
             <p className='contact__card-data text-textColor dark:text-textColorDark'>
-              +98 913 603 9501
+              +996 999 181928
             </p>
           </div>
         </div>

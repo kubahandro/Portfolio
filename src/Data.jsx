@@ -3,11 +3,6 @@ import portfolio from './assets/portfolio.png';
 import appleStore from './assets/appleStore.png';
 import golsam from './assets/golsam.png';
 
-import Testimonial1 from './assets/testimonial1.jpg';
-import Testimonial2 from './assets/testimonial2.jpg';
-import Testimonial3 from './assets/testimonial3.jpg';
-import Testimonial4 from './assets/testimonial4.jpg';
-import Testimonial5 from './assets/testimonial5.jpg';
 
 export const links = [
   {
@@ -31,14 +26,6 @@ export const links = [
     path: 'resume',
   },
   {
-    name: 'Testimonials',
-    path: 'testimonial',
-  },
-  {
-    name: 'Pricing',
-    path: 'pricing',
-  },
-  {
     name: 'Blog',
     path: 'blog',
   },
@@ -54,7 +41,7 @@ export const service = [
     name: 'Web Development',
     title: 'Custom Development',
     description:
-      'I can develop custom websites using the latest frontend technologies, such as React.js, Next.js, and JavaScript, to create fast and dynamic websites.',
+      'I can develop custom websites using the latest frontend technologies, such as React.js and JavaScript, to create fast and dynamic websites.',
   },
   {
     id: 2,
@@ -82,7 +69,7 @@ export const service = [
     name: 'Interactive Effects',
     title: 'Animations and Effects',
     description:
-      'Animations and interactive effects can make your website more engaging and memorable. I can create custom animations and effects using CSS, framer-motion and three.js to bring your website to life.',
+      'Animations and interactive effects can make your website more engaging and memorable. I can create custom animations and effects using CSS, framer-motion to bring your website to life.',
   },
 ];
 
@@ -110,102 +97,71 @@ export const skill = [
     description:
       'A popular JavaScript library for building user interfaces, React is used to create dynamic and responsive web applications.',
   },
-
   {
     id: 4,
-    name: 'Next.js',
-    percentage: 75,
-    description:
-      'Next.js is a React-based framework for building server-side rendered and statically generated web applications.',
-  },
-
-  {
-    id: 5,
     name: 'TypeScript',
-    percentage: 75,
+    percentage: 50,
     description:
       'TypeScript is a superset of JavaScript that adds optional static typing and other features to the language.',
   },
 
   {
-    id: 6,
+    id: 5,
     name: 'Tailwind CSS',
-    percentage: 80,
+    percentage: 50,
     description:
       'Tailwind CSS is a utility-first CSS framework that provides developers with a set of pre-built CSS classes for styling web applications.',
   },
 
   {
-    id: 7,
+    id: 6,
     name: 'Git',
-    percentage: 80,
+    percentage: 85,
     description:
       'Git is a widely used version control system that is essential for collaborative development and project management. ',
   },
 
   {
-    id: 8,
-    name: 'Webpack',
-    percentage: 50,
-    description:
-      'Webpack is a module bundler for modern JavaScript applications. It bundles assets, modules, and dependencies into a single file.',
-  },
-
-  {
-    id: 9,
-    name: 'GraphQL',
-    percentage: 80,
-    description:
-      'GraphQL is a query language for APIs that provides a more efficient, powerful and flexible alternative to RESTful APIs.',
-  },
-
-  {
-    id: 10,
+    id: 7,
     name: 'RESTful API',
-    percentage: 90,
+    percentage: 85,
     description:
       'RESTful API is an interface that two computer systems use to exchange information securely over the internet.',
   },
 
   {
-    id: 11,
+    id: 8,
     name: 'Sass',
-    percentage: 75,
+    percentage: 99,
     description:
       'Sass is a CSS preprocessor that allows developers to write CSS in a more concise and structured way.',
   },
 
   {
-    id: 12,
+    id: 9,
+    name: 'Css',
+    percentage: 99,
+    description:
+      'CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.',
+  },
+
+
+  {
+    id: 10,
     name: 'Bootstrap',
-    percentage: 85,
+    percentage: 65,
     description:
       'Bootstrap is a popular CSS framework that provides developers with a set of pre-built UI components.',
   },
 
   {
-    id: 13,
+    id: 11,
     name: 'Redux',
     percentage: 80,
     description:
       'Redux is a predictable state container for JavaScript apps, used to manage the state of complex applications.',
   },
 
-  {
-    id: 14,
-    name: 'Zustand',
-    percentage: 85,
-    description:
-      'Zustand is a small, fast and scalable status management solution. Its state management is centralized and action-based.',
-  },
-
-  {
-    id: 15,
-    name: 'Jest & Cypress',
-    percentage: 45,
-    description:
-      'Jest and Cypress are JavaScript-based testing framework designed to ensure correctness of any JavaScript codebase.',
-  },
 ];
 
 export const project = [
@@ -257,36 +213,46 @@ export const project = [
 export const cv = [
   {
     id: 1,
-    title: 'University of Tehran',
-    subtitle: 'M.Sc. in Engineering',
-    date: '2014 - 2016',
+    title: 'Jalal-Abad Kurmanbek Baatyr High school',
+    subtitle: 'Sapat international educational institution',
+    date: '2014 - 2019',
     description:
-      'The Master of Science in Hydraulic Engineering program at the University of Tehran is a two-year postgraduate degree that provides students with advanced knowledge of water structural engineering.',
+      'The international institution “Sapat” is the only private comprehensive educational institution in Kyrgyzstan.',
     category: 'education',
   },
 
   {
     id: 2,
-    title: 'Mehregan Institute Certificate',
-    subtitle: 'SQL Server',
-    date: '2012 - 2013',
+    title: 'Ala-Too international university',
+    subtitle: 'Computer science',
+    date: '2019 - 2021',
     description:
-      'The SQL Server Certificate program at Mehregan Institute is a training program that provides students with advanced knowledge of SQL Server databases, including database design, administration, and programming.',
+      'Ala-Too International University (AIU) is one of the leading international universities in Central Asia, founded in 1996. The founder of the AIU is the “Sapat” International Educational Institution. The AIU is a legal entity, a private institution operating in accordance with the legislation of the Kyrgyz Republic.',
     category: 'education',
   },
 
   {
     id: 3,
-    title: 'Mehregan Institute Certificate',
-    subtitle: 'C#.Net',
-    date: '2012 - 2013',
+    title: 'Okurmen It',
+    subtitle: 'Course',
+    date: '01.03.2024 - 20.09.2024',
     description:
-      'The C#.Net Certificate program at Mehregan Institute is a training program that provides students with advanced knowledge of C# programming language and .NET framework.',
+      'The Okurmen_it center is one of the leading academies that teach in the field of Computer science',
     category: 'education',
   },
 
   {
     id: 4,
+    title: 'Kyrgyz State Technical University named after I.Razzakov',
+    subtitle: 'Computer science',
+    date: '2024  - PRESENT',
+    description:
+      'Kyrgyz State Technical University, named after, I. Razzakov (KSTU), was founded in 1954. It is the biggest technical university in the Kyrgyz Republic, with about 14,000 students and about 1500 staff members. The university comprises of 6 faculties, 4 institutes, and 4 research institutes',
+    category: 'education',
+  },
+
+  {
+    id: 5,
     title: 'Coming Soon...',
     subtitle: 'Coming Soon...',
     date: '0000 - 0000',
@@ -296,89 +262,57 @@ export const cv = [
   },
 
   {
-    id: 5,
-    title: 'Freelancing (Web Development)',
-    subtitle: 'GolsamSepahan Blog',
-    date: '2022 - PRESENT',
-    description:
-      'As a freelance frontend developer, I was responsible for developing the frontend of a blog website from scratch, which involved creating an intuitive and visually engaging user interface. My responsibilities included designing and implementing responsive layouts, optimizing website performance, and ensuring cross-browser compatibility.',
-    category: 'experience',
-  },
-
-  {
     id: 6,
-    title: 'Coming Soon...',
-    subtitle: 'Coming Soon...',
-    date: '000 - 0000',
+    title: 'English Language',
+    subtitle: 'Language',
+    date: '2014 - PRESENT',
     description:
-      'Coming Soon....',
+      'B-2 level',
     category: 'experience',
   },
 
   {
     id: 7,
-    title: 'Coming Soon...',
-    subtitle: 'Coming Soon...',
-    date: '000 - 0000',
+    title: 'Turkish Language',
+    subtitle: 'Language',
+    date: '2014 - Present',
     description:
-      'Coming Soon....',
+      'B-2 Level',
+    category: 'experience',
+  },
+
+  {
+    id: 8,
+    title: 'Russian Language',
+    subtitle: 'Language',
+    date: '',
+    description:
+      'B-2 Level',
     category: 'experience',
   },
   
   {
-    id: 8,
-    title: 'Coming Soon...',
-    subtitle: 'Coming Soon...',
-    date: '000 - 0000',
+    id: 9,
+    title: 'Kyrgyz Language',
+    subtitle: 'Language',
+    date: '',
     description:
-      'Coming Soon....',
+      'Kyrgyz language is my native language',
+    category: 'experience',
+  },
+
+  {
+    id: 10,
+    title: 'Uzbek Language',
+    subtitle: 'Language',
+    date: '',
+    description:
+      '',
     category: 'experience',
   },
 
 ];
 
-export const testimonial = [
-  {
-    id: 1,
-    img: Testimonial1,
-    name: 'Barbara Wilson',
-    author: 'CEO Company',
-    description:
-      'Coming Soon...',
-  },
-  {
-    id: 2,
-    img: Testimonial2,
-    name: 'Charlie Smith',
-    author: 'Designer',
-    description:
-      'Coming Soon...',
-  },
-  {
-    id: 3,
-    img: Testimonial3,
-    name: 'Roy Wang',
-    author: 'Manager GYM',
-    description:
-      'Coming Soon...',
-  },
-  {
-    id: 4,
-    img: Testimonial4,
-    name: 'Jennifer Smith',
-    author: 'CEO & Founder',
-    description:
-      'Coming Soon...',
-  },
-  {
-    id: 5,
-    img: Testimonial5,
-    name: 'Paul Freeman',
-    author: 'Photographer',
-    description:
-      'Coming Soon...',
-  },
-];
 
 export const post = [
   {

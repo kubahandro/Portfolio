@@ -1,7 +1,6 @@
 import React from 'react';
 import { service } from '../../Data';
 import { FaArrowRight } from 'react-icons/fa';
-import shapeTwo from '../../assets/shape-2.png';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -84,11 +83,7 @@ const Services = () => {
                 See pricing
                 <FaArrowRight className='text-primaryColor ml-[20px] hover:ml-[15px] transition-all duration-[0.3s] ease-[cubic-bezier(0.3,0,0.3,1)]' />
               </a>
-              <img
-                src={shapeTwo}
-                alt='shape for design service cards'
-                className='absolute right-[-24px] bottom-[-24px] w-[141px] h-[141px] dark:opacity-[0.6] dark:invert-[1]'
-              />
+              
             </SwiperSlide>
           );
         })}

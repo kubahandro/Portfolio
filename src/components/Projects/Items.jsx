@@ -1,7 +1,6 @@
 import React from 'react';
 import { AiFillGithub } from 'react-icons/ai';
 import { CgWebsite } from 'react-icons/cg';
-import shapeTwo from '../../assets/shape-2.png';
 import { motion } from 'framer-motion';
 
 const Items = ({ projectItems }) => {
@@ -64,11 +63,7 @@ const Items = ({ projectItems }) => {
                 <AiFillGithub className='z-[2] w-[26px] h-[26px] text-titleColor dark:text-titleColorDark' />
               </a>
             </div>
-            <img
-              src={shapeTwo}
-              alt='shape for design service cards'
-              className='absolute right-[-24px] bottom-[-24px] w-[141px] h-[141px] dark:invert-[1] dark:opacity-[0.6]'
-            />
+          
           </motion.div>
         );
       })}

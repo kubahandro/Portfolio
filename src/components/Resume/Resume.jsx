@@ -43,7 +43,7 @@ const Resume = () => {
         </div>
         <div className='resume__group'>
           <h3 className='text-center text-h4Size border-b-[2px] border-b-solid text-titleColor dark:text-titleColorDark border-b-borderColor dark:border-b-borderColorDark pb-[30px]'>
-            Experience
+          Additional knowledge
           </h3>
           <div className='resume__items'>
             {cv.map((val, id) => {

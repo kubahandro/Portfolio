@@ -1,0 +1,56 @@
+.animation-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}
+.static-txt {
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.dynamic-txts {
+    line-height: 90px;
+    height: 90px;
+    overflow: hidden;
+}
+
+.dynamic-txts li {
+    color: #ff4c30;
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 9s steps(3) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -270px;
+    }
+}
+
+.dynamic-txts li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(247, 243, 243);
+    background-color: dark;
+    border-left: 2px solid #ff4c30;
+    animation: typing 3s steps(10) infinite;
+}
+.dark li::after {
+    background-color: hsl(216, 18%, 16%);
+}
+
+@keyframes typing {
+    40%, 60% {
+        left: calc(100% + 30px);
+    }
+    100% {
+        left: 0;
+    }
+}
