@@ -1,4 +1,4 @@
-![alt text](https://github.com/khakiiman/portfolio/blob/main/src/assets/IntroPic.png?raw=true)
+<!-- ![alt text](https://github.com/kubahandro/portfolio) -->
 
 # New Portfolio Website
 
@@ -55,8 +55,6 @@ To learn more about Next.js, take a look at the following resources:
 - [Vite Documentation](https://vitejs.dev/guide/) - learn about Vite features.
 - [Vite Community](https://dev.to/t/vite) - discussion about Vite.
 
-You can check out [the Vite GitHub repository](https://github.com/vitejs/vite) - your feedback and contributions are welcome!
-
 ## Deployment
 
 This project is deployed using Netlify. To deploy your own version of this website, you can follow these steps:
@@ -90,6 +88,4 @@ Please make sure to update tests as appropriate.
 ## Result
 
 The final step is to see this awesome frontend developer portfolio!
-Check out link below:
 
-https://imankhaki.netlify.app

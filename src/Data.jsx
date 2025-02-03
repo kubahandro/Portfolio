@@ -1,7 +1,7 @@
-import digiCosmetics from './assets/digiCosmetics.png';
-import portfolio from './assets/portfolio.png';
-import appleStore from './assets/appleStore.png';
-import golsam from './assets/golsam.png';
+// import digiCosmetics from './assets/digiCosmetics.png';
+// import portfolio from './assets/portfolio.png';
+// import appleStore from './assets/appleStore.png';
+// import golsam from './assets/golsam.png';
 
 
 export const links = [
@@ -167,7 +167,7 @@ export const skill = [
 export const project = [
   {
     id: 1,
-    img: digiCosmetics,
+    // img: digiCosmetics,
     category: 'Landing',
     title: 'digiCosmetics',
     description:
@@ -178,7 +178,7 @@ export const project = [
 
   {
     id: 2,
-    img: portfolio,
+    // img: portfolio,
     category: 'Portfolio',
     title: 'Developer Portfolio',
     description:
@@ -189,7 +189,7 @@ export const project = [
 
   {
     id: 3,
-    img: appleStore,
+    // img: appleStore,
     category: 'Ecommerce',
     title: 'New Apple Store',
     description:
@@ -200,7 +200,7 @@ export const project = [
 
   {
     id: 4,
-    img: golsam,
+    // img: golsam,
     category: 'Blog',
     title: 'Golsam Sepahan',
     description:
